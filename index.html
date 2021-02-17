@@ -13,37 +13,63 @@
     </head>
     <body>
         <div class="wrapper">
-            <div class="header">Mateusz Kozłowski</div>
+            <div class="header">
+                <h1>
+                    Mateusz Kozłowski
+                <h1>
+                <hr/>
+            </div>
             <div id="navbar">
-                <a href="#">Home</a>
-                <a href="#">About me</a>
-                <a href="#">Contact</a>
+                <a href="#Home">Home</a>
+                <a href="#Aboutme">About me</a>
+                <a href="#Contact">Contact</a>
             </div>
             <div class="content">
-                <h3>Sticky Navigation Example</h3>
-                <p>The navbar will stick to the top when you reach its scroll position.</p>
-                <p>Some text to enable scrolling.. Lorem ipsum dolor sit amet, illum definitiones no quo, maluisset concludaturque et eum, altera fabulas ut quo. Atqui causae gloriatur ius te, id agam omnis evertitur eum. Affert laboramus repudiandae nec et. Inciderint efficiantur his ad. Eum no molestiae voluptatibus.</p>
-                <p>Some text to enable scrolling.. Lorem ipsum dolor sit amet, illum definitiones no quo, maluisset concludaturque et eum, altera fabulas ut quo. Atqui causae gloriatur ius te, id agam omnis evertitur eum. Affert laboramus repudiandae nec et. Inciderint efficiantur his ad. Eum no molestiae voluptatibus.</p>
-                <p>Some text to enable scrolling.. Lorem ipsum dolor sit amet, illum definitiones no quo, maluisset concludaturque et eum, altera fabulas ut quo. Atqui causae gloriatur ius te, id agam omnis evertitur eum. Affert laboramus repudiandae nec et. Inciderint efficiantur his ad. Eum no molestiae voluptatibus.</p>
-                <p>Some text to enable scrolling.. Lorem ipsum dolor sit amet, illum definitiones no quo, maluisset concludaturque et eum, altera fabulas ut quo. Atqui causae gloriatur ius te, id agam omnis evertitur eum. Affert laboramus repudiandae nec et. Inciderint efficiantur his ad. Eum no molestiae voluptatibus.</p>
-                <p>Some text to enable scrolling.. Lorem ipsum dolor sit amet, illum definitiones no quo, maluisset concludaturque et eum, altera fabulas ut quo. Atqui causae gloriatur ius te, id agam omnis evertitur eum. Affert laboramus repudiandae nec et. Inciderint efficiantur his ad. Eum no molestiae voluptatibus.</p>
-                <p>Some text to enable scrolling.. Lorem ipsum dolor sit amet, illum definitiones no quo, maluisset concludaturque et eum, altera fabulas ut quo. Atqui causae gloriatur ius te, id agam omnis evertitur eum. Affert laboramus repudiandae nec et. Inciderint efficiantur his ad. Eum no molestiae voluptatibus.</p>
-                <p>Some text to enable scrolling.. Lorem ipsum dolor sit amet, illum definitiones no quo, maluisset concludaturque et eum, altera fabulas ut quo. Atqui causae gloriatur ius te, id agam omnis evertitur eum. Affert laboramus repudiandae nec et. Inciderint efficiantur his ad. Eum no molestiae voluptatibus.</p>
-              </div>
-              <script>
-                window.onscroll = function() {myFunction()};
-                
-                var navbar = document.getElementById("navbar");
-                var sticky = navbar.offsetTop;
-                
-                function myFunction() {
-                  if (window.pageYOffset >= sticky) {
-                    navbar.classList.add("sticky")
-                  } else {
-                    navbar.classList.remove("sticky");
-                  }
-                }
-                </script>
+                <section id="Home">
+                    <h2>Home</h2>
+                    <p>
+                        Led ask possible mistress relation elegance eat 
+                        likewise debating. By message or am nothing amongst chiefly address. 
+                        The its enable direct men depend highly. Ham windows sixteen who inquiry fortune demands. 
+                        Is be upon sang fond must shew. Really boy law county she unable her sister. Feet you off its like like six. 
+                        Among sex are leave law built now. In built table in an rapid blush. Merits behind on afraid or warmly. 
+                    </p>
+                </section>
+                <section id="Aboutme">
+                    <h2>About me</h2>
+                    <p>
+                        Led ask possible mistress relation elegance eat 
+                        likewise debating. By message or am nothing amongst chiefly address. 
+                        The its enable direct men depend highly. Ham windows sixteen who inquiry fortune demands. 
+                        Is be upon sang fond must shew. Really boy law county she unable her sister. Feet you off its like like six. 
+                        Among sex are leave law built now. In built table in an rapid blush. Merits behind on afraid or warmly. 
+                    </p>
+                </section>
+                <section id="Contact">
+                    <h2>Contact</h2>
+                    <p>
+                        Led ask possible mistress relation elegance eat 
+                        likewise debating. By message or am nothing amongst chiefly address. 
+                        The its enable direct men depend highly. Ham windows sixteen who inquiry fortune demands. 
+                        Is be upon sang fond must shew. Really boy law county she unable her sister. Feet you off its like like six. 
+                        Among sex are leave law built now. In built table in an rapid blush. Merits behind on afraid or warmly. 
+                    </p>
+                </section>
+            </div>
         </div>
+        <script>
+            window.onscroll = function() {myFunction()};
+            
+            var navbar = document.getElementById("navbar");
+            var sticky = navbar.offsetTop;
+            
+            function myFunction() {
+              if (window.pageYOffset >= sticky) {
+                navbar.classList.add("sticky")
+              } else {
+                navbar.classList.remove("sticky");
+              }
+            }
+            </script>
     </body>
 </html>
