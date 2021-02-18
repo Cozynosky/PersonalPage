@@ -43,19 +43,27 @@ div.wrapper{
 div.navbar{
     position: -webkit-sticky;
     position: sticky;
-    width: 265px;
+    width: 321px;
+    height:30px;
     margin: 0 auto;
     top: 0;
+    background-color: #d3D5d4;
+    border-radius:30px;
 }
 
 div.navbar nav{
-    font-size:24px;
+    font-size:24px; 
 }
 
 div.navbar nav a{
     text-decoration: none;
+    color:#2d2d2b;
+    border-radius:30px;
+    margin: 0 10px;
 }
-
 div.content{
     margin: 0 5%;
     }
+div.content section{
+    padding-top:30px
+}
