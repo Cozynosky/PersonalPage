@@ -15,6 +15,10 @@ body{
     background-color:#f6f5f0;
 }
 
+div.wrapper{
+    min-width:410px;
+}
+
 .header{
     height:130px;
     background-color:#2d2d2b;
