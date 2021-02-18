@@ -40,7 +40,7 @@ body{
 div.navbar{
     position: -webkit-sticky;
     position: sticky;
-    width: 321px;
+    width: 305px;
     height:30px;
     margin: 0 auto;
     top: 0;
@@ -57,11 +57,7 @@ div.navbar nav a{
     color:#2d2d2b;
     border-radius:30px;
     margin: 0 10px;
-    transition: 1s;
-}
-
-div.navbar nav a:hover{
-    text-shadow: 2px 2px 5px #2d2d2b;
+    transition: 0.5s;
 }
 
 div.content{
@@ -75,7 +71,22 @@ div.content section h2{
 }
 
 div.content section p{
+    width:90%;
     margin-top: 10px;
+    margin-bottom: 10px;
 }
 
+#Contact img{
+    width:30px;
+    margin-right: 10px;
+}
 
+@media(hover: hover) and (pointer: fine) {
+    div.navbar nav a:hover{
+        text-shadow: 2px 2px 5px #2d2d2b;
+        }
+    
+    div.navbar nav a:active{
+        text-shadow:none;
+        }
+}
