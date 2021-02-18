@@ -8,7 +8,6 @@
 html {
     scroll-behavior: smooth;
     color:#2d2d2b;
-    font-size: 16px;
   }
 
 body{
@@ -16,7 +15,7 @@ body{
 }
 
 div.wrapper{
-    min-width:407px;
+    min-width:375px;
 }
 
 .header{
@@ -67,3 +66,10 @@ div.content{
 div.content section{
     padding-top:30px
 }
+
+@media screen and (max-width: 407px) {
+    .header{
+        font-size:21px; 
+    }
+    
+  }
