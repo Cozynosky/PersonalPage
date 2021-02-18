@@ -19,10 +19,11 @@ body{
 .header{
     height:130px;
     background-color:#2d2d2b;
-    color:white;
+    color:#f6f5f0;
     padding:15px;
-    border-radius:0 0 50px 50px;
+    border-radius:0 0 55px 55px;
     margin-bottom: 10px;
+    font-size: 1.2rem;
 }
 
 .header h3{
@@ -37,7 +38,6 @@ body{
 }
 
 div.navbar{
-    box-shadow: 2px 2px 5px #2d2d2b;
     position: -webkit-sticky;
     position: sticky;
     width: 321px;
@@ -57,10 +57,11 @@ div.navbar nav a{
     color:#2d2d2b;
     border-radius:30px;
     margin: 0 10px;
+    transition: 1s;
 }
 
 div.navbar nav a:hover{
-    font-weight: bold;
+    text-shadow: 2px 2px 5px #2d2d2b;
 }
 
 div.content{
