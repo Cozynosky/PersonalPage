@@ -15,7 +15,6 @@ body{
 }
 
 div.wrapper{
-    min-width:375px;
 }
 
 .header{
@@ -70,6 +69,14 @@ div.content section{
 @media screen and (max-width: 407px) {
     .header{
         font-size:21px; 
-    }
-    
+    } 
   }
+
+@media screen and (max-width: 374px) {
+    .header{
+        font-size:17px; 
+    } 
+  }
+
+
+
