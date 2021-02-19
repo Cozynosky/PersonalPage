@@ -83,7 +83,18 @@ div.content section article{
 }
 
 div.content section article ul{
-    margin-left: 2rem;
+    
+    margin-left: 32px;
+}
+
+div.content section article ul li a{
+    text-decoration:none;
+    font-style: italic;
+    color:black;
+}
+div.content section article ul li img{
+    height:300px;
+    margin:15px 15px 15px 0px;
 }
 
 #Contact img{
