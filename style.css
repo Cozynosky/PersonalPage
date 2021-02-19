@@ -11,9 +11,12 @@ html {
   }
 
 body{
-    background-color:#f6f5f0;
+    background-color:white;
 }
 
+.wrapper{
+    background-color:#f6f5f0;
+}
 
 .header{
     height:130px;
@@ -107,7 +110,7 @@ div.content section article ul li img{
 .gallery{
     background-color:#d3D5d4;
     padding-top: 8px;
-    border-radius: 1%;
+    border-radius: 10px;
 }
 
 .row {
