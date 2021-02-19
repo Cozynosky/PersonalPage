@@ -107,6 +107,7 @@ div.content section article ul li img{
 .gallery{
     background-color:#d3D5d4;
     padding-top: 8px;
+    border-radius: 1%;
 }
 
 .row {
